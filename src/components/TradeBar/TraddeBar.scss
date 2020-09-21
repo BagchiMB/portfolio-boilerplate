@@ -1,0 +1,22 @@
+.Tradebar
+{
+    display: flex;
+    justify-content: center;
+    .content
+    {
+        margin-top:5rem;
+        width:90%;
+        display: flex;
+        justify-content: space-between;
+
+        p 
+        {
+            text-transform: uppercase;
+            font-weight: bold;
+            width:10rem;
+            text-align: center;
+            font-size:1.2rem;
+            letter-spacing: 0.05rem;
+        }
+    }
+}
